@@ -16,3 +16,7 @@ export default async function Home() {
     <div>{JSON.stringify(users)}</div>
   </div>
 }
+
+export const revalidate = 60
+
+// export const dynamic = 'force-dynamic'
